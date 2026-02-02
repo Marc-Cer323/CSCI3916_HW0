@@ -1,0 +1,47 @@
+GET https://openlibrary.org/search.json?title=turing
+200
+247 ms
+Network
+Request Headers - telling the server what to do 
+User-Agent: PostmanRuntime/7.51.1 - identifying the client software making request
+Accept: */* - tells the server the client accepts the content in any form for response
+Cache-Control: no-cache - tells server to fetch fresh data not cached versions
+Postman-Token: 85809044-888f-4578-a671-6f89a1fe1cce - Unique ID for postman request
+Host: openlibrary.org - target server/domain being requested 
+Accept-Encoding: gzip, deflate, br - compression methods the client can receive/handle 
+Connection: keep-alive
+Response Headers - telling what the server did based on the requests
+Server: nginx/1.28.1
+Date: Mon, 02 Feb 2026 06:24:36 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive - a request to keep connection open for multiple requests
+x-served-by: FastAPI
+Referrer-Policy: no-referrer-when-downgrade
+Content-Encoding: gzip 
+
+
+GET https://openlibrary.org/works/OL61215W.json
+200
+121 ms
+Network
+Request Headers
+User-Agent: PostmanRuntime/7.51.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: dd9fe6f5-7bb2-49ea-9e9f-fff266ac9faa
+Host: openlibrary.org
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Response Headers
+Server: nginx/1.28.1 - web server software and version handling the request
+Date: Mon, 02 Feb 2026 06:24:36 GMT - timestamp
+Content-Type: application/json - response body containg JSON formatted data
+Transfer-Encoding: chunked - the data is sent in chunks rather then at once
+Connection: keep-alive - server keeps connection alive for futher request.
+access-control-allow-origin: *
+access-control-allow-method: GET, OPTIONS
+access-control-max-age: 86400
+x-ol-stats: "MC 2 0.001 TT 0 0.005"
+Referrer-Policy: no-referrer-when-downgrade - security policy for the timing of referrer information is sent.
+Content-Encoding: gzip
